@@ -70,7 +70,7 @@ quickSortbtn.addEventListener('click', async function(){
     let r = ele.length - 1;
     disableSortingBtn();
     disableSizeSlider();
-    disableNewArrayBtn();
+    
     await quickSort(ele, l, r);
     enableSortingBtn();
     enableSizeSlider();
